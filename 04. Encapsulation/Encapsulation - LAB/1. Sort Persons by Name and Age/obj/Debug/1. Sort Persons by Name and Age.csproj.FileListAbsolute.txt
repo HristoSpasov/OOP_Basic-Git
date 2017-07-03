@@ -1,0 +1,5 @@
+C:\SoftUni\OOP Basic\04. Encapsulation\Encapsulation - LAB\1. Sort Persons by Name and Age\bin\Debug\_1.Sort_Persons_by_Name_and_Age.exe.config
+C:\SoftUni\OOP Basic\04. Encapsulation\Encapsulation - LAB\1. Sort Persons by Name and Age\bin\Debug\_1.Sort_Persons_by_Name_and_Age.exe
+C:\SoftUni\OOP Basic\04. Encapsulation\Encapsulation - LAB\1. Sort Persons by Name and Age\bin\Debug\_1.Sort_Persons_by_Name_and_Age.pdb
+C:\SoftUni\OOP Basic\04. Encapsulation\Encapsulation - LAB\1. Sort Persons by Name and Age\obj\Debug\_1.Sort_Persons_by_Name_and_Age.exe
+C:\SoftUni\OOP Basic\04. Encapsulation\Encapsulation - LAB\1. Sort Persons by Name and Age\obj\Debug\_1.Sort_Persons_by_Name_and_Age.pdb
