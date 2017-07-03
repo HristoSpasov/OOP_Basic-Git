@@ -1,0 +1,6 @@
+C:\SoftUni\OOP Basic\Bashsoft\SimpleJudje\SimpleJudje\obj\Debug\SimpleJudje.csprojResolveAssemblyReference.cache
+C:\SoftUni\OOP Basic\Bashsoft\SimpleJudje\SimpleJudje\bin\Debug\SimpleJudje.exe.config
+C:\SoftUni\OOP Basic\Bashsoft\SimpleJudje\SimpleJudje\bin\Debug\SimpleJudje.exe
+C:\SoftUni\OOP Basic\Bashsoft\SimpleJudje\SimpleJudje\bin\Debug\SimpleJudje.pdb
+C:\SoftUni\OOP Basic\Bashsoft\SimpleJudje\SimpleJudje\obj\Debug\SimpleJudje.exe
+C:\SoftUni\OOP Basic\Bashsoft\SimpleJudje\SimpleJudje\obj\Debug\SimpleJudje.pdb
