@@ -1,0 +1,6 @@
+C:\Softuni\Main Program\2. C# Fundamentals\2. C# OOP Basics\03. Exercise Defining Classes\Exercises Defining Classes\09. Rectangle Intersection\bin\Debug\_09.Rectangle_Intersection.exe.config
+C:\Softuni\Main Program\2. C# Fundamentals\2. C# OOP Basics\03. Exercise Defining Classes\Exercises Defining Classes\09. Rectangle Intersection\bin\Debug\_09.Rectangle_Intersection.exe
+C:\Softuni\Main Program\2. C# Fundamentals\2. C# OOP Basics\03. Exercise Defining Classes\Exercises Defining Classes\09. Rectangle Intersection\bin\Debug\_09.Rectangle_Intersection.pdb
+C:\Softuni\Main Program\2. C# Fundamentals\2. C# OOP Basics\03. Exercise Defining Classes\Exercises Defining Classes\09. Rectangle Intersection\obj\Debug\_09.Rectangle_Intersection.exe
+C:\Softuni\Main Program\2. C# Fundamentals\2. C# OOP Basics\03. Exercise Defining Classes\Exercises Defining Classes\09. Rectangle Intersection\obj\Debug\_09.Rectangle_Intersection.pdb
+C:\Softuni\Main Program\2. C# Fundamentals\2. C# OOP Basics\03. Exercise Defining Classes\Exercises Defining Classes\09. Rectangle Intersection\obj\Debug\09. Rectangle Intersection.csprojResolveAssemblyReference.cache
