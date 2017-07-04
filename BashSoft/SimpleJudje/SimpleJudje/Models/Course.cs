@@ -1,12 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 
 namespace SimpleJudje.Models
 {
-    class Course
+    internal class Course
     {
         public const int NumberOfTasksOnExam = 5;
         public const int MaxScoresOnExamTask = 100;
@@ -35,7 +31,7 @@ namespace SimpleJudje.Models
         {
             if (this.studentsByName.ContainsKey(student.UserName))
             {
-                OutputWriter.DisplayException(string.Format(ExceptiionMessages.StudentAlreadyEnrolledInGivenCourse, student.UserName, this.Name));
+                OutputWriter.DisplayException(string.Format(ExceptionMessages.StudentAlreadyEnrolledInGivenCourse, student.UserName, this.Name));
                 return;
             }
 

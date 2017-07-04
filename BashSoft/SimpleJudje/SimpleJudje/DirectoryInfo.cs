@@ -46,7 +46,7 @@ namespace SimpleJudje
                 }
                 catch (UnauthorizedAccessException)
                 {
-                    OutputWriter.DisplayException(ExceptiionMessages.UnauthorizedAccessExceptionMessage);
+                    OutputWriter.DisplayException(ExceptionMessages.UnauthorizedAccessExceptionMessage);
                 }
             }
         }

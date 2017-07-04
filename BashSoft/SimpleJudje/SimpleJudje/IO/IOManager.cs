@@ -20,7 +20,7 @@ namespace SimpleJudje
             }
             catch (ArgumentException)
             {
-                OutputWriter.DisplayException(ExceptiionMessages.ForbiddenSymbolsContainedInName);
+                throw new ArgumentException(ExceptionMessages.ForbiddenSymbolsContainedInName);
             }
         }
 
@@ -43,7 +43,7 @@ namespace SimpleJudje
                 }
                 catch (ArgumentOutOfRangeException)
                 {
-                    OutputWriter.DisplayException(ExceptiionMessages.UnableToGoHigherInPartitionHierarchy);
+                    throw new ArgumentOutOfRangeException("indexOfLastSlash", ExceptionMessages.UnableToGoHigherInPartitionHierarchy);
                 }
             }
             else
@@ -58,9 +58,7 @@ namespace SimpleJudje
         {
             if (!Directory.Exists(absolutePath))
             {
-                OutputWriter.DisplayException(ExceptiionMessages.InvalidPath);
-
-                return; ;
+                throw new DirectoryNotFoundException(ExceptionMessages.InvalidPath);
             }
 
             SessionData.currentPath = absolutePath;

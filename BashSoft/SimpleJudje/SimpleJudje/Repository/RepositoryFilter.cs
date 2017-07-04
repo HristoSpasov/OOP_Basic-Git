@@ -1,12 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 
 namespace SimpleJudje
 {
     public class RepositoryFilter
     {
-        public void FilterAndTake(Dictionary<string, double> studentWithMarks, string wantedFilter,int studentsToTake)
+        public void FilterAndTake(Dictionary<string, double> studentWithMarks, string wantedFilter, int studentsToTake)
         {
             switch (wantedFilter)
             {
@@ -23,7 +22,7 @@ namespace SimpleJudje
                     break;
 
                 default:
-                    OutputWriter.DisplayException(ExceptiionMessages.InvalidStudentsFIlter);
+                    OutputWriter.DisplayException(ExceptionMessages.InvalidStudentsFIlter);
                     break;
             }
         }

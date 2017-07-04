@@ -1,10 +1,9 @@
-﻿using System;
+﻿using SimpleJudje.Models;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using System.Text;
 using System.Text.RegularExpressions;
-using SimpleJudje.Models;
 
 namespace SimpleJudje
 {
@@ -26,9 +25,9 @@ namespace SimpleJudje
         {
             if (this.isDataInitialized)
             {
-                
-                OutputWriter.DisplayException(ExceptiionMessages.DataAlreadyInitialisedException);
-                return;
+                // OutputWriter.DisplayException(ExceptionMessages.DataAlreadyInitialisedException);
+                // return;
+                throw new InvalidDataException(ExceptionMessages.DataAlreadyInitialisedException);
             }
 
             this.students = new Dictionary<string, Student>();
@@ -40,7 +39,9 @@ namespace SimpleJudje
         {
             if (!this.isDataInitialized)
             {
-                OutputWriter.DisplayException(ExceptiionMessages.DataNotInitialisedException);
+                // OutputWriter.DisplayException(ExceptionMessages.DataNotInitialisedException);
+                // return;
+                throw new InvalidDataException(ExceptionMessages.DataNotInitialisedException);
             }
 
             this.students = null;
@@ -109,12 +110,12 @@ namespace SimpleJudje
 
                             if (scores.Any(x => x > 100 || x < 0))
                             {
-                                OutputWriter.DisplayException(ExceptiionMessages.InvalidScore);
+                                OutputWriter.DisplayException(ExceptionMessages.InvalidScore);
                             }
 
                             if (scores.Length > Course.NumberOfTasksOnExam)
                             {
-                                OutputWriter.DisplayException(ExceptiionMessages.InvalidNumberOfScores);
+                                OutputWriter.DisplayException(ExceptionMessages.InvalidNumberOfScores);
                                 continue;
                             }
 
@@ -138,7 +139,7 @@ namespace SimpleJudje
                     }
                     catch (FormatException e)
                     {
-                        OutputWriter.DisplayException(e.Message + $" at line: {line + 1}!");
+                        throw new FormatException(e.Message + $" at line: {line + 1}!");
                     }
                 }
 
@@ -146,7 +147,7 @@ namespace SimpleJudje
             }
             else
             {
-                OutputWriter.WriteMessage(ExceptiionMessages.InvalidPath);
+                OutputWriter.WriteMessage(ExceptionMessages.InvalidPath);
             }
         }
 
@@ -164,7 +165,7 @@ namespace SimpleJudje
                 OutputWriter.WriteMessageOnNewLine($"Course {courseName} does not exist!");
             }
         }
-        
+
         private bool CourseExists(string courseName)
         {
             if (this.courses.ContainsKey(courseName))

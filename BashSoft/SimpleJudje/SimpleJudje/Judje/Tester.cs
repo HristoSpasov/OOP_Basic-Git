@@ -7,10 +7,9 @@ namespace SimpleJudje
     {
         public void CompareContent(string userOutputPath, string expectedOutputPath)
         {
-            OutputWriter.WriteMessageOnNewLine("Reading files...");
-
             try
             {
+                OutputWriter.WriteMessageOnNewLine("Reading files...");
                 string mismatchPath = GetMismatchPath(expectedOutputPath);
 
                 // Read data rom files
@@ -22,16 +21,16 @@ namespace SimpleJudje
                 string[] mismatches = GetLinesWithPossibleMismatches(userOutput, expectedOutput, out hasMismatch);
 
                 // Print report
-                PrintOutput(mismatches, hasMismatch, mismatchPath);
+                this.PrintOutput(mismatches, hasMismatch, mismatchPath);
                 OutputWriter.WriteMessageOnNewLine("Files read!");
             }
             catch (FileNotFoundException)
             {
-                OutputWriter.DisplayException(ExceptiionMessages.InvalidPath);
+                OutputWriter.DisplayException(ExceptionMessages.InvalidPath);
             }
             catch (DirectoryNotFoundException)
             {
-                OutputWriter.DisplayException(ExceptiionMessages.InvalidPath);
+                OutputWriter.DisplayException(ExceptionMessages.InvalidPath);
             }
         }
 
@@ -44,14 +43,7 @@ namespace SimpleJudje
                     OutputWriter.WriteMessageOnNewLine(mismatch);
                 }
 
-                try
-                {
-                    File.WriteAllLines(mismatchPath, mismatches);
-                }
-                catch (DirectoryNotFoundException)
-                {
-                    OutputWriter.DisplayException(ExceptiionMessages.InvalidPath);
-                }
+                File.WriteAllLines(mismatchPath, mismatches);
             }
             else
             {
@@ -72,7 +64,7 @@ namespace SimpleJudje
             {
                 hasMismatch = true;
                 minOutputLines = Math.Min(userOutput.Length, expectedOutput.Length);
-                OutputWriter.DisplayException(ExceptiionMessages.ComparisonOfFilesWithDifferentSizes);
+                OutputWriter.DisplayException(ExceptionMessages.ComparisonOfFilesWithDifferentSizes);
             }
 
             // Compare

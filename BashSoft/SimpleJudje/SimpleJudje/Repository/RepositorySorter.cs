@@ -25,7 +25,7 @@ namespace SimpleJudje
                     break;
 
                 default:
-                    OutputWriter.DisplayException(ExceptiionMessages.InvalidComparisonQuery);
+                    OutputWriter.DisplayException(ExceptionMessages.InvalidComparisonQuery);
                     break;
             }
         }

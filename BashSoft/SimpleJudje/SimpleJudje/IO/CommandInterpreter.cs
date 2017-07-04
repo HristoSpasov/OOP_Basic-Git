@@ -1,4 +1,6 @@
-﻿using System.Diagnostics;
+﻿using System;
+using System.Diagnostics;
+using System.IO;
 
 namespace SimpleJudje
 {
@@ -20,6 +22,30 @@ namespace SimpleJudje
             string[] data = input.Split();
             string command = data[0];
 
+            try
+            {
+                this.ParseCommand(input, command, data);
+            }
+            catch (DirectoryNotFoundException dnfe)
+            {
+                OutputWriter.DisplayException(dnfe.Message);
+            }
+            catch (ArgumentOutOfRangeException aoore)
+            {
+                OutputWriter.DisplayException(aoore.Message);
+            }
+            catch (ArgumentException ae)
+            {
+                OutputWriter.DisplayException(ae.Message);
+            }
+            catch (Exception e)
+            {
+                OutputWriter.DisplayException(e.Message);
+            }
+        }
+
+        private void ParseCommand(string input, string command, string[] data)
+        {
             switch (command)
             {
                 case "open":
@@ -124,13 +150,13 @@ namespace SimpleJudje
                     }
                     else
                     {
-                        OutputWriter.DisplayException(ExceptiionMessages.InvalidTakeQuantityParameter);
+                        OutputWriter.DisplayException(ExceptionMessages.InvalidTakeQuantityParameter);
                     }
                 }
             }
             else
             {
-                OutputWriter.DisplayException(ExceptiionMessages.InvalidTakeCommand);
+                OutputWriter.DisplayException(ExceptionMessages.InvalidTakeCommand);
             }
         }
 
@@ -170,13 +196,13 @@ namespace SimpleJudje
                     }
                     else
                     {
-                        OutputWriter.DisplayException(ExceptiionMessages.InvalidTakeQuantityParameter);
+                        OutputWriter.DisplayException(ExceptionMessages.InvalidTakeQuantityParameter);
                     }
                 }
             }
             else
             {
-                OutputWriter.DisplayException(ExceptiionMessages.InvalidTakeCommand);
+                OutputWriter.DisplayException(ExceptionMessages.InvalidTakeCommand);
             }
         }
 
@@ -280,7 +306,7 @@ namespace SimpleJudje
                 }
                 else
                 {
-                    OutputWriter.DisplayException(ExceptiionMessages.UnableToParseNumber);
+                    OutputWriter.DisplayException(ExceptionMessages.UnableToParseNumber);
                 }
             }
         }
