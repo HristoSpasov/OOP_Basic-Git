@@ -1,0 +1,6 @@
+C:\SoftUni\OOP Basic\08. Exercise Inheritance\Exercises Inheritance\02. Book Shop\bin\Debug\_02.Book_Shop.exe.config
+C:\SoftUni\OOP Basic\08. Exercise Inheritance\Exercises Inheritance\02. Book Shop\bin\Debug\_02.Book_Shop.exe
+C:\SoftUni\OOP Basic\08. Exercise Inheritance\Exercises Inheritance\02. Book Shop\bin\Debug\_02.Book_Shop.pdb
+C:\SoftUni\OOP Basic\08. Exercise Inheritance\Exercises Inheritance\02. Book Shop\obj\Debug\02. Book Shop.csprojResolveAssemblyReference.cache
+C:\SoftUni\OOP Basic\08. Exercise Inheritance\Exercises Inheritance\02. Book Shop\obj\Debug\_02.Book_Shop.exe
+C:\SoftUni\OOP Basic\08. Exercise Inheritance\Exercises Inheritance\02. Book Shop\obj\Debug\_02.Book_Shop.pdb

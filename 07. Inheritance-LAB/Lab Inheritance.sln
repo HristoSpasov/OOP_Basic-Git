@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Part 1 Inheritance", "Part 1 Inheritance\Part 1 Inheritance.csproj", "{0D33648B-6090-44DC-8F26-B6CD14BE7D4D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Part II Reusing Classes - 4. Random List", "Part II Reusing Classes - 4. Random List\Part II Reusing Classes - 4. Random List.csproj", "{1E535071-1FFB-4B4B-8C84-3B9A77FBBAF8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Part II Reusing Classes - 5. Stack of Strings", "Part II Reusing Classes - 5. Stack of Strings\Part II Reusing Classes - 5. Stack of Strings.csproj", "{0913F5CA-F9ED-4F21-A939-3EBD5A81BB3E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0D33648B-6090-44DC-8F26-B6CD14BE7D4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D33648B-6090-44DC-8F26-B6CD14BE7D4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D33648B-6090-44DC-8F26-B6CD14BE7D4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D33648B-6090-44DC-8F26-B6CD14BE7D4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E535071-1FFB-4B4B-8C84-3B9A77FBBAF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E535071-1FFB-4B4B-8C84-3B9A77FBBAF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E535071-1FFB-4B4B-8C84-3B9A77FBBAF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E535071-1FFB-4B4B-8C84-3B9A77FBBAF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0913F5CA-F9ED-4F21-A939-3EBD5A81BB3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0913F5CA-F9ED-4F21-A939-3EBD5A81BB3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0913F5CA-F9ED-4F21-A939-3EBD5A81BB3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0913F5CA-F9ED-4F21-A939-3EBD5A81BB3E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,6 @@
+C:\Softuni\Main Program\2. C# Fundamentals\2. C# OOP Basics\08. Exercise Inheritance\Exercises Inheritance\03. Mankind\bin\Debug\_03.Mankind.exe.config
+C:\Softuni\Main Program\2. C# Fundamentals\2. C# OOP Basics\08. Exercise Inheritance\Exercises Inheritance\03. Mankind\bin\Debug\_03.Mankind.exe
+C:\Softuni\Main Program\2. C# Fundamentals\2. C# OOP Basics\08. Exercise Inheritance\Exercises Inheritance\03. Mankind\bin\Debug\_03.Mankind.pdb
+C:\Softuni\Main Program\2. C# Fundamentals\2. C# OOP Basics\08. Exercise Inheritance\Exercises Inheritance\03. Mankind\obj\Debug\03. Mankind.csprojResolveAssemblyReference.cache
+C:\Softuni\Main Program\2. C# Fundamentals\2. C# OOP Basics\08. Exercise Inheritance\Exercises Inheritance\03. Mankind\obj\Debug\_03.Mankind.exe
+C:\Softuni\Main Program\2. C# Fundamentals\2. C# OOP Basics\08. Exercise Inheritance\Exercises Inheritance\03. Mankind\obj\Debug\_03.Mankind.pdb

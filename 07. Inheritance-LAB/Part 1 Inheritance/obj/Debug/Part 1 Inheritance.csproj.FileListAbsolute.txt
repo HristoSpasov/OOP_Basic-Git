@@ -1,0 +1,6 @@
+C:\SoftUni\OOP Basic\07. Inheritance\Lab Inheritance\Part 1 Inheritance\bin\Debug\Part 1 Inheritance.exe.config
+C:\SoftUni\OOP Basic\07. Inheritance\Lab Inheritance\Part 1 Inheritance\bin\Debug\Part 1 Inheritance.exe
+C:\SoftUni\OOP Basic\07. Inheritance\Lab Inheritance\Part 1 Inheritance\bin\Debug\Part 1 Inheritance.pdb
+C:\SoftUni\OOP Basic\07. Inheritance\Lab Inheritance\Part 1 Inheritance\obj\Debug\Part 1 Inheritance.csprojResolveAssemblyReference.cache
+C:\SoftUni\OOP Basic\07. Inheritance\Lab Inheritance\Part 1 Inheritance\obj\Debug\Part 1 Inheritance.exe
+C:\SoftUni\OOP Basic\07. Inheritance\Lab Inheritance\Part 1 Inheritance\obj\Debug\Part 1 Inheritance.pdb

@@ -1,0 +1,6 @@
+C:\SoftUni\OOP Basic\08. Exercise Inheritance\Exercises Inheritance\01. Person\bin\Debug\_01.Person.exe.config
+C:\SoftUni\OOP Basic\08. Exercise Inheritance\Exercises Inheritance\01. Person\bin\Debug\_01.Person.exe
+C:\SoftUni\OOP Basic\08. Exercise Inheritance\Exercises Inheritance\01. Person\bin\Debug\_01.Person.pdb
+C:\SoftUni\OOP Basic\08. Exercise Inheritance\Exercises Inheritance\01. Person\obj\Debug\01. Person.csprojResolveAssemblyReference.cache
+C:\SoftUni\OOP Basic\08. Exercise Inheritance\Exercises Inheritance\01. Person\obj\Debug\_01.Person.exe
+C:\SoftUni\OOP Basic\08. Exercise Inheritance\Exercises Inheritance\01. Person\obj\Debug\_01.Person.pdb

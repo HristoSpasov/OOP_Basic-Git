@@ -1,0 +1,5 @@
+C:\SoftUni\OOP Basic\08. Exercise Inheritance\Exercises Inheritance\05. Mordor’s Cruelty Plan\bin\Debug\_05.Mordor_s_Cruelty_Plan.exe.config
+C:\SoftUni\OOP Basic\08. Exercise Inheritance\Exercises Inheritance\05. Mordor’s Cruelty Plan\bin\Debug\_05.Mordor_s_Cruelty_Plan.exe
+C:\SoftUni\OOP Basic\08. Exercise Inheritance\Exercises Inheritance\05. Mordor’s Cruelty Plan\bin\Debug\_05.Mordor_s_Cruelty_Plan.pdb
+C:\SoftUni\OOP Basic\08. Exercise Inheritance\Exercises Inheritance\05. Mordor’s Cruelty Plan\obj\Debug\_05.Mordor_s_Cruelty_Plan.exe
+C:\SoftUni\OOP Basic\08. Exercise Inheritance\Exercises Inheritance\05. Mordor’s Cruelty Plan\obj\Debug\_05.Mordor_s_Cruelty_Plan.pdb
