@@ -42,8 +42,30 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Exceptions\CourseNotFoundException.cs" />
+    <Compile Include="Exceptions\DuplicateEntryInStructureException.cs" />
+    <Compile Include="Exceptions\InvalidCommandException.cs" />
+    <Compile Include="Exceptions\InvalidFilenameException.cs" />
+    <Compile Include="Exceptions\InvalidPathException.cs" />
+    <Compile Include="Exceptions\InvalidStringException.cs" />
+    <Compile Include="Exceptions\InvalidTakeCommand.cs" />
+    <Compile Include="Exceptions\InvalidTakeQuantityParameter.cs" />
+    <Compile Include="Exceptions\InvalidTraverseDepth.cs" />
+    <Compile Include="IO\ChangeAbsolutePathCommand.cs" />
+    <Compile Include="IO\ChangeRelativePathCommand.cs" />
+    <Compile Include="IO\Command.cs" />
     <Compile Include="IO\CommandInterpreter.cs" />
     <Compile Include="DirectoryInfo.cs" />
+    <Compile Include="IO\CompareFilesCommand.cs" />
+    <Compile Include="IO\DropDatabaseCommand.cs" />
+    <Compile Include="IO\GetHelpCommand.cs" />
+    <Compile Include="IO\MakeDirectoryCommand.cs" />
+    <Compile Include="IO\OpenFileCommand.cs" />
+    <Compile Include="IO\PrintFilteredStudentsCommand.cs" />
+    <Compile Include="IO\PrintOrderedStudentsCommand.cs" />
+    <Compile Include="IO\ReadDatabaseCommand.cs" />
+    <Compile Include="IO\ShowCourseCommand.cs" />
+    <Compile Include="IO\TraverseFoldersCommand.cs" />
     <Compile Include="Models\Course.cs" />
     <Compile Include="Models\Student.cs" />
     <Compile Include="Static Data\ExceptionMessages.cs" />

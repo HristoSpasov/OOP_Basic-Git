@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using SimpleJudje.Exceptions;
+using System.Collections.Generic;
 
 namespace SimpleJudje.Models
 {
@@ -19,7 +20,15 @@ namespace SimpleJudje.Models
         public string Name
         {
             get { return this.name; }
-            set { this.name = value; }
+            set
+            {
+                if (string.IsNullOrEmpty(value))
+                {
+                    throw new InvalidStringException();
+                }
+
+                this.name = value;
+            }
         }
 
         public Dictionary<string, Student> StudentsByName
@@ -31,8 +40,9 @@ namespace SimpleJudje.Models
         {
             if (this.studentsByName.ContainsKey(student.UserName))
             {
-                OutputWriter.DisplayException(string.Format(ExceptionMessages.StudentAlreadyEnrolledInGivenCourse, student.UserName, this.Name));
-                return;
+                throw new DuplicateEntryInStructureException(student.UserName, this.Name);
+                //OutputWriter.DisplayException(string.Format(ExceptionMessages.StudentAlreadyEnrolledInGivenCourse, student.UserName, this.Name));
+                //return;
             }
 
             this.studentsByName.Add(student.UserName, student);

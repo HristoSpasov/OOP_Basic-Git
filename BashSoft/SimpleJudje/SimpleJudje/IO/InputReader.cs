@@ -5,7 +5,7 @@ namespace SimpleJudje
     public class InputReader
     {
         private const string endComand = "quit";
-        private CommandInterpreter interpreter;
+        private readonly CommandInterpreter interpreter;
 
         public InputReader(CommandInterpreter interpreter)
         {

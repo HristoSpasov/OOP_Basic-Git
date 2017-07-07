@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SimpleJudje.Exceptions;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 
@@ -28,7 +29,8 @@ namespace SimpleJudje.Models
             {
                 if (string.IsNullOrEmpty(value))
                 {
-                    throw new ArgumentException(nameof(this.userName), ExceptionMessages.NullOrEmptyValue);
+                    // throw new ArgumentException(nameof(this.userName), ExceptionMessages.NullOrEmptyValue);
+                    throw new InvalidStringException();
                 }
 
                 this.userName = value;
@@ -51,7 +53,8 @@ namespace SimpleJudje.Models
             {
                 //OutputWriter.DisplayException(string.Format(ExceptionMessages.StudentAlreadyEnrolledInGivenCourse, this.userName, course.Name));
                 //return;
-                throw new ArgumentNullException(string.Format(ExceptionMessages.StudentAlreadyEnrolledInGivenCourse, this.userName, course.Name));
+                // throw new ArgumentNullException(string.Format(ExceptionMessages.StudentAlreadyEnrolledInGivenCourse, this.userName, course.Name));
+                throw new DuplicateEntryInStructureException(this.UserName, course.Name);
             }
 
             this.enrolledCourses.Add(course.Name, course);
@@ -63,7 +66,8 @@ namespace SimpleJudje.Models
             {
                 //OutputWriter.DisplayException(ExceptionMessages.NotEnrolledInCourse);
                 //return
-                throw new ArgumentNullException(ExceptionMessages.NotEnrolledInCourse);
+                // throw new ArgumentNullException(ExceptionMessages.NotEnrolledInCourse);
+                throw new CourseNotFoundException();
             }
 
             if (scores.Length > Course.NumberOfTasksOnExam)

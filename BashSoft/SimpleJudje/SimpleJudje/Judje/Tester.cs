@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SimpleJudje.Exceptions;
+using System;
 using System.IO;
 
 namespace SimpleJudje
@@ -24,13 +25,9 @@ namespace SimpleJudje
                 this.PrintOutput(mismatches, hasMismatch, mismatchPath);
                 OutputWriter.WriteMessageOnNewLine("Files read!");
             }
-            catch (FileNotFoundException)
+            catch (InvalidPathException ex)
             {
-                OutputWriter.DisplayException(ExceptionMessages.InvalidPath);
-            }
-            catch (DirectoryNotFoundException)
-            {
-                OutputWriter.DisplayException(ExceptionMessages.InvalidPath);
+                OutputWriter.DisplayException(ex.Message);
             }
         }
 
@@ -101,7 +98,7 @@ namespace SimpleJudje
         {
             int indexOf = expectedOutputPath.LastIndexOf('\\');
             string directoryPath = expectedOutputPath.Substring(0, indexOf);
-            string finalMismatchPath = directoryPath + @"Mismatches.txt";
+            string finalMismatchPath = directoryPath + @"\Mismatches.txt";
 
             return finalMismatchPath;
         }

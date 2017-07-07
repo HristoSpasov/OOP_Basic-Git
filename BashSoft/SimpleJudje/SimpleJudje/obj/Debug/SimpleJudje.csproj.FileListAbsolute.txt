@@ -4,3 +4,9 @@ C:\SoftUni\OOP Basic\Bashsoft\SimpleJudje\SimpleJudje\bin\Debug\SimpleJudje.exe
 C:\SoftUni\OOP Basic\Bashsoft\SimpleJudje\SimpleJudje\bin\Debug\SimpleJudje.pdb
 C:\SoftUni\OOP Basic\Bashsoft\SimpleJudje\SimpleJudje\obj\Debug\SimpleJudje.exe
 C:\SoftUni\OOP Basic\Bashsoft\SimpleJudje\SimpleJudje\obj\Debug\SimpleJudje.pdb
+C:\Softuni\Main Program\2. C# Fundamentals\2. C# OOP Basics\Bashsoft\SimpleJudje\SimpleJudje\obj\Debug\SimpleJudje.csprojResolveAssemblyReference.cache
+C:\Softuni\Main Program\2. C# Fundamentals\2. C# OOP Basics\Bashsoft\SimpleJudje\SimpleJudje\obj\Debug\SimpleJudje.exe
+C:\Softuni\Main Program\2. C# Fundamentals\2. C# OOP Basics\Bashsoft\SimpleJudje\SimpleJudje\obj\Debug\SimpleJudje.pdb
+C:\Softuni\Main Program\2. C# Fundamentals\2. C# OOP Basics\Bashsoft\SimpleJudje\SimpleJudje\bin\Debug\SimpleJudje.exe.config
+C:\Softuni\Main Program\2. C# Fundamentals\2. C# OOP Basics\Bashsoft\SimpleJudje\SimpleJudje\bin\Debug\SimpleJudje.exe
+C:\Softuni\Main Program\2. C# Fundamentals\2. C# OOP Basics\Bashsoft\SimpleJudje\SimpleJudje\bin\Debug\SimpleJudje.pdb

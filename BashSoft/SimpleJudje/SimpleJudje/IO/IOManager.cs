@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SimpleJudje.Exceptions;
+using System;
 using System.IO;
 
 namespace SimpleJudje
@@ -20,7 +21,8 @@ namespace SimpleJudje
             }
             catch (ArgumentException)
             {
-                throw new ArgumentException(ExceptionMessages.ForbiddenSymbolsContainedInName);
+                // throw new ArgumentException(ExceptionMessages.ForbiddenSymbolsContainedInName);
+                throw new InvalidFileNameException();
             }
         }
 
@@ -58,7 +60,8 @@ namespace SimpleJudje
         {
             if (!Directory.Exists(absolutePath))
             {
-                throw new DirectoryNotFoundException(ExceptionMessages.InvalidPath);
+                // throw new DirectoryNotFoundException(ExceptionMessages.InvalidPath);
+                throw new InvalidPathException();
             }
 
             SessionData.currentPath = absolutePath;

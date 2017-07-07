@@ -1,4 +1,5 @@
-﻿using SimpleJudje.Models;
+﻿using SimpleJudje.Exceptions;
+using SimpleJudje.Models;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -32,6 +33,7 @@ namespace SimpleJudje
 
             this.students = new Dictionary<string, Student>();
             this.courses = new Dictionary<string, Course>();
+            this.isDataInitialized = true;
             this.ReadData(fileName);
         }
 
@@ -147,7 +149,15 @@ namespace SimpleJudje
             }
             else
             {
-                OutputWriter.WriteMessage(ExceptionMessages.InvalidPath);
+                try
+                {
+                    throw new InvalidPathException();
+                }
+                catch (InvalidPathException ex)
+                {
+                    OutputWriter.WriteMessage(ex.Message);
+                }
+                //OutputWriter.WriteMessage(ExceptionMessages.InvalidPath);
             }
         }
 
