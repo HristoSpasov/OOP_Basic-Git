@@ -1,0 +1,12 @@
+C:\Users\hts_a\Desktop\OOP-Basic-Exam\OOP-Basic-Exam\bin\Debug\OOP-Basic-Exam.exe.config
+C:\Users\hts_a\Desktop\OOP-Basic-Exam\OOP-Basic-Exam\bin\Debug\OOP-Basic-Exam.exe
+C:\Users\hts_a\Desktop\OOP-Basic-Exam\OOP-Basic-Exam\bin\Debug\OOP-Basic-Exam.pdb
+C:\Users\hts_a\Desktop\OOP-Basic-Exam\OOP-Basic-Exam\obj\Debug\OOP-Basic-Exam.csprojResolveAssemblyReference.cache
+C:\Users\hts_a\Desktop\OOP-Basic-Exam\OOP-Basic-Exam\obj\Debug\OOP-Basic-Exam.exe
+C:\Users\hts_a\Desktop\OOP-Basic-Exam\OOP-Basic-Exam\obj\Debug\OOP-Basic-Exam.pdb
+C:\Softuni\Main Program\2. C# Fundamentals\2. C# OOP Basics\OOP-Basic-Exam\OOP-Basic-Exam\bin\Debug\OOP-Basic-Exam.exe.config
+C:\Softuni\Main Program\2. C# Fundamentals\2. C# OOP Basics\OOP-Basic-Exam\OOP-Basic-Exam\bin\Debug\OOP-Basic-Exam.exe
+C:\Softuni\Main Program\2. C# Fundamentals\2. C# OOP Basics\OOP-Basic-Exam\OOP-Basic-Exam\bin\Debug\OOP-Basic-Exam.pdb
+C:\Softuni\Main Program\2. C# Fundamentals\2. C# OOP Basics\OOP-Basic-Exam\OOP-Basic-Exam\obj\Debug\OOP-Basic-Exam.csprojResolveAssemblyReference.cache
+C:\Softuni\Main Program\2. C# Fundamentals\2. C# OOP Basics\OOP-Basic-Exam\OOP-Basic-Exam\obj\Debug\OOP-Basic-Exam.exe
+C:\Softuni\Main Program\2. C# Fundamentals\2. C# OOP Basics\OOP-Basic-Exam\OOP-Basic-Exam\obj\Debug\OOP-Basic-Exam.pdb
